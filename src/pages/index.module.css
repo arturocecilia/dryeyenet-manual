@@ -21,3 +21,93 @@
   align-items: center;
   justify-content: center;
 }
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.hero--primary) {
+  border-bottom: 1px solid #dadce0;
+}
+
+.docsButton {
+  margin-top: 2rem;
+}
+
+:root {
+  --custom-hero-bg: #f8f9fa; /* #1a62b0;*/
+  --custom-hero-text: #1a62b0;
+  --custom-hero-link: #e3f0ff;
+  --custom-hero-button-bg: #417fbd;
+  --custom-hero-button-text: #fff;
+  --custom-hero-button-hover-bg: #17589e;
+}
+
+/* Global override for hero--primary in light mode */
+:global(.hero--primary) {
+  background-color: var(--custom-hero-bg) !important;
+}
+
+:global(.hero--primary .hero__title),
+:global(.hero--primary .hero__subtitle),
+:global(.hero--primary a) {
+  color: #111 !important;
+}
+
+:global(.hero--primary .button) {
+  color: var(--custom-hero-button-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+
+:global(.hero--primary a) {
+  color: var(--custom-hero-link) !important;
+  text-decoration: underline;
+}
+
+:global(.hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+}
+
+:global(.hero--primary .button:hover),
+:global(.hero--primary .button:focus) {
+  background: var(--custom-hero-button-hover-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+}
+
+/* Only apply overrides in light mode */
+:global([data-theme="dark"] .hero--primary) {
+  background-color: transparent !important;
+}
+
+:global([data-theme="dark"] .hero--primary .hero__title),
+:global([data-theme="dark"] .hero--primary .hero__subtitle),
+:global([data-theme="dark"] .hero--primary a) {
+  color: #fff !important;
+  background: inherit !important;
+  border: inherit !important;
+  text-decoration: inherit;
+}
+
+:global(.hero--primary .button) {
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary) {
+  border-bottom: 1px solid #333;
+}
