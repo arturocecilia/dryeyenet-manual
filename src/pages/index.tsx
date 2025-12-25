@@ -26,7 +26,7 @@ function HomepageHeader() {
             </span>
 
             <div className={styles.indexCtas_hUA_}>
-              <a className="button button--primary" href="/docs">
+              <a className="button button--primary" href="/docs/intro">
                 Begin with the Documentation
               </a>
             </div>

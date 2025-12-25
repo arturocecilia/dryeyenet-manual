@@ -173,3 +173,7 @@ span.learnMore {
   border-color: #f2b3b3;*/
   color: #e70101;
 }
+
+a.card h2 {
+  font-weight: 500;
+}
