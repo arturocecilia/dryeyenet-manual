@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Step 2: Anamnesis
 
-Document relevant medical history and risk factors. Multi-selection is allowed unless ‘None’ is selected. Use ‘Other’ to document details not in the preset list.
+Document relevant medical history and risk factors. Multi-selection is allowed unless `None` is selected. Use `Other` to document details not in the preset list.
 
-**Recommendation:** Capture systemic conditions and medications that may influence the ocular surface and tear film.
+> **Tip:** Capture systemic conditions and medications that may influence the ocular surface and tear film.
 
 ## 1 - Risk Factors
 

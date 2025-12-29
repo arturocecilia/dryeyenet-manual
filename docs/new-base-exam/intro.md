@@ -5,6 +5,12 @@ sidebar_label: "Intro"
 
 # Base Exam:
 
+You can access **New Base Exam** from the **Main Menu**:
+
+![New Base Exam in the Main Menu](/img/new-base-exam/newBasExa_maiMen_en.png)
+
+The first step is to [**select an existing patient**](/docs/new-base-exam/step-select-patient) in order to complete the base exam.
+
 The following informations are documented in the Base Exam:
 
 - **Eyelid abnormalities**

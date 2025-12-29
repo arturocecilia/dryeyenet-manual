@@ -5,7 +5,7 @@ sidebar_label: Patient Documentation
 
 # Patient Documentation
 
-After clicking **Patient Documentation**, a list of all documented patient data is displayed.
+After clicking `PATIENT DOCUMENTATION`, a list of all documented patient data is displayed.
 
 ![Patient documentation list](/img/patient-dashboard/patDas_docList_en.png)
 
@@ -13,11 +13,11 @@ After clicking **Patient Documentation**, a list of all documented patient data 
 
 Once a document is selected, a set of actions becomes available depending on the document type. These actions include:
 
-- **Review**
-- **Edit**
+- `REVIEW`
+- `EDIT`
 
 ![Patient document actions](/img/patient-dashboard/patDas_docActions_en.png)
 
-When clicking **Review**, a viewer adapted to the document type will appear, allowing you to browse the available data.
+When clicking `REVIEW`, a viewer adapted to the document type appears, allowing you to browse the available data.
 
 ![Patient document viewer](/img/patient-dashboard/patDas_docOculus_en.png)
