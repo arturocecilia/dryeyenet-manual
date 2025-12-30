@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
@@ -7,23 +7,23 @@ import "react-medium-image-zoom/dist/styles.css";
 
 const flowSteps = [
   {
-    title: "New Base Survey - New Base Exam - Import Device Exam",
-    text: "These are the 3 tasks that usually are performed as the first step in the patient journey. Depending on the user role and the software version, one or more of these tasks will be available to start documenting a new patient visit.",
+    title: "New Base Survey – New Base Exam – Import Device Exam",
+    text: "These are the three tasks that are usually performed as the first step in the patient journey. Depending on the user role and the software version, one or more of these tasks will be available to start documenting a new patient visit.",
     imgNum: 1,
   },
   {
-    title: "New Diagnostic Report - New Treatment Plan  - New Treatment",
-    text: "These tasks are usually performed after the initial examination of the patient, and they allow the user to create diagnostic reports, treatment plans (and their documented treatments) based on the collected data.",
+    title: "New Diagnostic Report – New Treatment Plan – New Treatment",
+    text: "These tasks are usually performed after the patient’s initial examination. They allow the user to create diagnostic reports, treatment plans, and documented treatments based on the collected data.",
     imgNum: 2,
   },
   {
     title: "Patient Dashboard",
-    text: "The Patient Dashboard task allows the user to access all the information related to a specific patient, including their history, examinations, diagnostic reports, and treatment plans. From here, users can also perform actions over the patient, such as editing document data, request treatment plans...",
+    text: "The Patient Dashboard allows the user to access all information related to a specific patient, including their history, examinations, diagnostic reports, and treatment plans. From here, users can also perform actions on the patient, such as editing document data or requesting treatment plans.",
     imgNum: 3,
   },
   {
     title: "Device Connections & Settings",
-    text: "Part of the Device Management is exposted to the user for workflow purposes. From here, users can connect or disconnect devices, check their import/export status, and access device-specific settings.",
+    text: "Part of Device Management is exposed to the user for workflow purposes. From here, users can connect or disconnect devices, check import/export status, and access device-specific settings.",
     imgNum: 4,
   },
 ];
@@ -33,9 +33,9 @@ export default function StfdPage() {
     <Layout title="STFD" description="Description of the STFD page">
       <main>
         <section className="container" style={{ padding: "3rem 0" }}>
-          <Heading as="h1">STFD </Heading>
+          <Heading as="h1">STFD</Heading>
           <p>
-            The SFTD philosophy was created with multiple purposes:
+            The STFD philosophy was created with multiple purposes:
             <ul>
               <li>
                 Ensure data integrity when different users are filling out
@@ -47,14 +47,14 @@ export default function StfdPage() {
                 unrelated to the task being carried out.
               </li>
               <li>
-                Increase the speed of data documentation, while keeping the
-                focus on the action at hand and dedicating the required screen
-                space to the relevant information.
+                Increase documentation speed while maintaining focus on the task
+                at hand and dedicating the necessary screen space to the
+                relevant information.
               </li>
             </ul>
             Below are the user tasks available to different users throughout the
             patient journey. Please note that these tasks are displayed based on
-            the role and capabilities of each user.
+            each user’s role and permissions.
           </p>
           <div className="markdown">
             {flowSteps.map((step, idx) => (

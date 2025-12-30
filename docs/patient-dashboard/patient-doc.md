@@ -18,6 +18,8 @@ Once a document is selected, a set of actions becomes available depending on the
 
 ![Patient document actions](/img/patient-dashboard/patDas_docActions_en.png)
 
+If you want to return to the **Patient Dashboard**, you can click `PATIENT LIST`.
+
 When clicking `REVIEW`, a viewer adapted to the document type appears, allowing you to browse the available data.
 
 ![Patient document viewer](/img/patient-dashboard/patDas_docOculus_en.png)

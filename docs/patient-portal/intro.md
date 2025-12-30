@@ -7,6 +7,6 @@ sidebar_label: Intro
 
 In **DryEyeNet**, patients can provide information and review all their documentation, saving time and streamlining the documentation workflow.
 
-This can be done through the **DryEyeNet Patient Portal**.
+This is done through the **DryEyeNet Patient Portal**.
 
-![Patient portal Home](/img/patient-portal/patPor_home_en.png)
+![Patient Portal home](/img/patient-portal/patPor_home_en.png)

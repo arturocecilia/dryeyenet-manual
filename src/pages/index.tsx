@@ -19,7 +19,7 @@ function HomepageHeader() {
               DryEyeNet is built on three core principles: Ease of Use, Data
               Entry Reliability, and Speed.
               <br />
-              The Single Flow Task Design (SFTD) places each task at the center
+              The Single Task Flow Design (STFD) places each task at the center
               of the experience, ensuring a reliable, fast, and intuitive
               workflow. Available tasks vary depending on the software version
               and the user role.
@@ -32,13 +32,13 @@ function HomepageHeader() {
             </div>
 
             <span className="addedText">
-              <b>Need direct help?</b> Reach us at support@dryeyenet.com or +34
-              630 90 66 82
+              <b>Need direct help?</b> Contact us at support@dryeyenet.com or
+              +34 630 90 66 82
             </span>
           </div>
           <div className={styles.heroImageCol}>
             <img
-              alt="Docusaurus with Keytar"
+              alt="DryEyeNet platform overview"
               className={styles.heroLogo_jM6J}
               width="500"
               src="/img/homeImage.png"
@@ -70,19 +70,19 @@ export default function Home(): ReactNode {
               {
                 icon: "/img/versions/opto.png",
                 title: "Opto",
-                text: "Version for the Pre-treatment center.",
+                text: "Version for Pre-Treatment Centers.",
                 href: "/docs/platform/opto",
               },
               {
                 icon: "/img/versions/read.png",
                 title: "Read",
-                text: "Version for the Reading Center.",
+                text: "Version for Reading Centers.",
                 href: "/docs/platform/read",
               },
               {
                 icon: "/img/versions/care.png",
                 title: "Care",
-                text: "Version for the Treatment Provider.",
+                text: "Version for Care Providers.",
                 href: "/docs/platform/care",
               },
               {
@@ -102,10 +102,7 @@ export default function Home(): ReactNode {
                   />
                 </div>
                 <b>{block.title}:</b>
-                <p>
-                  {"  "}
-                  {block.text}
-                </p>
+                <p>{block.text}</p>
                 <span className="learnMore">Go to Docs</span>
               </a>
             ))}
