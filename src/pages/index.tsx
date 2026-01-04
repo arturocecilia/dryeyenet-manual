@@ -58,10 +58,7 @@ export default function Home(): ReactNode {
     >
       <HomepageHeader />
       <main>
-        <section
-          className={clsx("container", styles.section)}
-          style={{ padding: "1.5rem 0" }}
-        >
+        <section className={clsx("container", styles.section)}>
           <Heading as="h2" className="versionsTitle">
             The <span className="brand">DryEyeNet</span> Platform
           </Heading>
@@ -74,10 +71,10 @@ export default function Home(): ReactNode {
                 href: "/docs/platform/opto",
               },
               {
-                icon: "/img/versions/read.png",
-                title: "Read",
+                icon: "/img/versions/opto-plus.png",
+                title: "Opto Plus",
                 text: "Version for Reading Centers.",
-                href: "/docs/platform/read",
+                href: "/docs/platform/opto-plus",
               },
               {
                 icon: "/img/versions/care.png",
@@ -86,10 +83,10 @@ export default function Home(): ReactNode {
                 href: "/docs/platform/care",
               },
               {
-                icon: "/img/versions/safe.png",
-                title: "Safe",
-                text: "Patient Portal.",
-                href: "/docs/platform/safe",
+                icon: "/img/versions/ophtha.png",
+                title: "Ophtha",
+                text: "Version for Solo Ophthalmologists.",
+                href: "/docs/platform/ophtha",
               },
             ].map((block, idx) => (
               <a key={idx} className={styles.featureBlock} href={block.href}>

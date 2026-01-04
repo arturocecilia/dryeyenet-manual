@@ -1,17 +1,16 @@
 ---
-sidebar_position: 2
-sidebar_label: OPTO
+sidebar_position: 3
+sidebar_label: OPTO PLUS
 ---
 
-# DryEyeNet OPTO
+# DryEyeNet OPTO PLUS
 
-DryEyeNet OPTO is designed for use by Pre-Treatment Centers. However, depending on the specific workflows and regulatory requirements of each country, the set of accessible tasks can be extended to include additional steps along the dry eye care pathway.
-
-By default, it includes the following tasks:
+Like OPTO, **DryEyeNet OPTO+** is designed for use in Pre-Treatment Centers, with the additional capability to perform New Base Exams.
 
 | Task                                                     | Presence |
 | -------------------------------------------------------- | -------- |
 | [**New Base Survey**](/docs/new-base-survey/intro)       | Always   |
+| [**New Base Exam**](/docs/new-base-exam/intro)           | Always   |
 | [**Import Device Exam**](/docs/import-device-exam/intro) | Optional |
 | [**Patient Dashboard**](/docs/patient-dashboard/intro)   | Always   |
 | **Order Dashboard**                                      | Alawys   |

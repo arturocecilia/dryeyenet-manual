@@ -112,6 +112,11 @@ a.button.button--primary {
   font-weight: 500;
 }
 
+.hero_syme_doc6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .hero_syme_doc6 h1 {
   font-size: 3rem !important;
   font-weight: 300 !important;

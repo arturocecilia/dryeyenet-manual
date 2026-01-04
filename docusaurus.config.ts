@@ -94,14 +94,14 @@ const config: Config = {
           items: [
             { label: "OPTO", to: "/docs/platform/opto" },
             {
-              label: "READ",
-              href: "/docs/platform/read",
+              label: "OPTO+",
+              href: "/docs/platform/opto-plus",
             },
             {
-              label: "CARE",
-              href: "/docs/platform/care",
+              label: "OPHTHA",
+              href: "/docs/platform/ophtha",
             },
-            { label: "SAFE", href: "/docs/platform/safe" },
+            { label: "CARE", href: "/docs/platform/care" },
           ],
         },
       ],
