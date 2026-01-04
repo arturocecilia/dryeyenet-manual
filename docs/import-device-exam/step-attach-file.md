@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Step 2: Attach Local Files to the Patient Documents

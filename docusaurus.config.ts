@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             { label: "OPTO", to: "/docs/platform/opto" },
             {
-              label: "OPTO+",
+              label: "OPTO PLUS",
               href: "/docs/platform/opto-plus",
             },
             {
