@@ -1,0 +1,460 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.hero--primary) {
+  border-bottom: 1px solid #dadce0;
+}
+
+.docsButton {
+  margin-top: 2rem;
+}
+
+:root {
+  --custom-hero-bg: #f8f9fa; /* #1a62b0;*/
+  --custom-hero-text: #1a62b0;
+  --custom-hero-link: #e3f0ff;
+  --custom-hero-button-bg: #417fbd;
+  --custom-hero-button-text: #fff;
+  --custom-hero-button-hover-bg: #17589e;
+}
+
+/* Global override for hero--primary in light mode */
+:global(.hero--primary) {
+  background-color: var(--custom-hero-bg) !important;
+}
+
+:global(.hero--primary .hero__title),
+:global(.hero--primary .hero__subtitle),
+:global(.hero--primary a) {
+  color: #111 !important;
+}
+
+:global(.hero--primary .button) {
+  color: var(--custom-hero-button-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+
+:global(.hero--primary a) {
+  color: var(--custom-hero-link) !important;
+  text-decoration: underline;
+}
+
+:global(.hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+}
+
+:global(.hero--primary .button:hover),
+:global(.hero--primary .button:focus) {
+  background: var(--custom-hero-button-hover-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+}
+
+/* Only apply overrides in light mode */
+:global([data-theme="dark"] .hero--primary) {
+  background-color: transparent !important;
+}
+
+:global([data-theme="dark"] .hero--primary .hero__title),
+:global([data-theme="dark"] .hero--primary .hero__subtitle),
+:global([data-theme="dark"] .hero--primary a) {
+  color: #fff !important;
+  background: inherit !important;
+  border: inherit !important;
+  text-decoration: inherit;
+}
+
+:global(.hero--primary .button) {
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary) {
+  border-bottom: 1px solid #333;
+}
+
+/* home */
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: var(--ifm-container-width-xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.hero--primary) {
+  border-bottom: 1px solid #dadce0;
+}
+
+.docsButton {
+  margin-top: 2rem;
+}
+
+:root {
+  --custom-hero-bg: #f8f9fa; /* #1a62b0;*/
+  --custom-hero-text: #1a62b0;
+  --custom-hero-link: #e3f0ff;
+  --custom-hero-button-bg: #417fbd;
+  --custom-hero-button-text: #fff;
+  --custom-hero-button-hover-bg: #17589e;
+}
+
+/* Global override for hero--primary in light mode */
+:global(.hero--primary) {
+  background-color: var(--custom-hero-bg) !important;
+}
+
+:global(.hero--primary .hero__title),
+:global(.hero--primary .hero__subtitle),
+:global(.hero--primary a) {
+  color: #111 !important;
+}
+
+:global(.hero--primary .button) {
+  color: var(--custom-hero-button-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+
+:global(.hero--primary a) {
+  color: var(--custom-hero-link) !important;
+  text-decoration: underline;
+}
+
+:global(.hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+}
+
+:global(.hero--primary .button:hover),
+:global(.hero--primary .button:focus) {
+  background: var(--custom-hero-button-hover-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+}
+
+/* Only apply overrides in light mode */
+:global([data-theme="dark"] .hero--primary) {
+  background-color: transparent !important;
+}
+
+:global([data-theme="dark"] .hero--primary .hero__title),
+:global([data-theme="dark"] .hero--primary .hero__subtitle),
+:global([data-theme="dark"] .hero--primary a) {
+  color: #fff !important;
+  background: inherit !important;
+  border: inherit !important;
+  text-decoration: inherit;
+}
+
+:global(.hero--primary .button) {
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary .button) {
+  background: var(--custom-hero-button-bg) !important;
+  color: var(--custom-hero-button-text) !important;
+  border: none;
+  text-decoration: none !important;
+}
+
+:global([data-theme="dark"] .hero--primary) {
+  border-bottom: 1px solid #333;
+}
+
+/* home */
+.hero_syme {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #f2f2f2;
+  /*  background: linear-gradient(135deg, #23272f 0%, #1a1d23 100%);
+  color: #fff;
+  padding: 3rem 1rem 2rem 1rem;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);*/
+  margin-bottom: 1rem;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.heroInner_VWeJ {
+  max-width: var(--ifm-container-width-xl);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.heroContentRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  width: 100%;
+}
+
+.heroTextCol {
+  flex: 1 1 0;
+  text-align: left;
+  min-width: 0;
+}
+
+.heroImageCol {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.heroLogo_jM6J {
+  /*height: 350px;
+  width: 200px;*/
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  /*  padding: 0 20px 20px;*/
+  /*animation-name: jack-in-the-box_cF72;
+  animation-duration: 3s;*/
+  /*  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);*/
+  object-fit: contain;
+}
+
+.heroProjectTagline_EkV5 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitleTextHtml_zYwv {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  line-height: 1.3;
+}
+
+.indexCtas_hUA_ {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.indexCtasGitHubButtonWrapper_AOht {
+  display: flex;
+  align-items: center;
+}
+
+.indexCtasGitHubButton_sMIS {
+  border: none;
+  background: none;
+  margin-left: 0.5rem;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: var(--ifm-container-width-xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 900px) {
+  .hero_syme {
+    padding: 2rem 0.5rem 1.5rem 0.5rem;
+    border-radius: 0 0 16px 16px;
+  }
+  .heroInner_VWeJ {
+    max-width: 100%;
+    padding: 0;
+  }
+  .heroContentRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .heroTextCol {
+    text-align: center;
+  }
+  .heroImageCol {
+    justify-content: center;
+    width: 100%;
+  }
+  .heroLogo_jM6J {
+    float: none;
+    margin: 0 auto 1rem auto;
+    width: 350px;
+    max-width: 80%;
+    padding: 0.2rem;
+  }
+  .indexCtas_hUA_ {
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 100%;
+  }
+}
+
+@keyframes jack-in-the-box_cF72 {
+  0% {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05) rotate(-10deg);
+  }
+  70% {
+    opacity: 0.7;
+    transform: scale(0.95) rotate(3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+
+/*now the grid*/
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+.featureGrid p {
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.featureGrid b {
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: #414141;
+}
+
+.featureBlock {
+  border-radius: 3px;
+  padding: 1.5rem 1rem;
+  border: 1px solid #dadce0;
+  color: black;
+  /*  background: #f7f8fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureBlock:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.featureTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.featureIcon {
+  width: 64px;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .featureGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .featureBlock {
+    padding: 1.2rem 0.5rem;
+  }
+}

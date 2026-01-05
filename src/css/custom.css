@@ -184,14 +184,16 @@ a.card h2 {
 }
 
 /* Dark mode: make .featureBlock_QltR almost black */
-[data-theme="dark"] .featureBlock_QltR {
+[data-theme="dark"] .featureBlock_QltR,
+[data-theme="dark"] .featureBlock_RAqI {
   background-color: #101214;
   color: #f5f6fa;
   border-color: #777777;
 }
 
 /* Dark mode: make .hero_syme_doc6 almost black */
-[data-theme="dark"] .hero_syme_doc6 {
+[data-theme="dark"] .hero_syme_doc6,
+[data-theme="dark"] .hero_syme_pn3J {
   background-color: #101214;
   color: #f5f6fa;
 }

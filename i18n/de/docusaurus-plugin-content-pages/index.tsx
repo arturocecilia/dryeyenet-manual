@@ -3,7 +3,6 @@ import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
-import LanguageRedirect from "../components/LanguageRedirect";
 
 import styles from "./index.module.css";
 
@@ -14,32 +13,32 @@ function HomepageHeader() {
         <div className={styles.heroContentRow}>
           <div className={styles.heroTextCol}>
             <h1>
-              DryEyeNet follows the <b>STFD</b> Principle
+              DryEyeNet folgt dem <b>STFD</b>-Prinzip
             </h1>
             <span className="explaText">
-              DryEyeNet is built on three core principles: Ease of Use, Data
-              Entry Reliability, and Speed.
+              DryEyeNet basiert auf drei Kernprinzipien: Benutzerfreundlichkeit,
+              Zuverlässigkeit der Dateneingabe und Geschwindigkeit.
               <br />
-              The Single Task Flow Design (STFD) places each task at the center
-              of the experience, ensuring a reliable, fast, and intuitive
-              workflow. Available tasks vary depending on the software version
-              and the user role.
+              Das Single Task Flow Design (STFD) stellt jede Aufgabe in den
+              Mittelpunkt des Erlebnisses und sorgt für einen zuverlässigen,
+              schnellen und intuitiven Arbeitsablauf. Verfügbare Aufgaben
+              variieren je nach Softwareversion und Benutzerrolle.
             </span>
 
             <div className={styles.indexCtas_hUA_}>
               <a className="button button--primary" href="/docs/intro">
-                Begin with the Documentation
+                Beginnen Sie mit der Dokumentation
               </a>
             </div>
 
             <span className="addedText">
-              <b>Need direct help?</b> Contact us at support@dryeyenet.com or
-              +34 630 90 66 82
+              <b>Benötigen Sie direkte Hilfe?</b> Kontaktieren Sie uns unter
+              support@dryeyenet.com oder +34 630 90 66 82
             </span>
           </div>
           <div className={styles.heroImageCol}>
             <img
-              alt="DryEyeNet platform overview"
+              alt="DryEyeNet Plattform Übersicht"
               className={styles.heroLogo_jM6J}
               width="500"
               src="/img/homeImage.png"
@@ -54,42 +53,39 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="DryEyeNet Documentation"
-      description="Official documentation for DryEyeNet"
+      title="DryEyeNet Dokumentation"
+      description="Offizielle Dokumentation für DryEyeNet"
     >
-      {/* Language auto-detection (runs only on /) */}
-      <LanguageRedirect />
-
       <HomepageHeader />
       <main>
         <section className={clsx("container", styles.section)}>
           <Heading as="h2" className="versionsTitle">
-            The <span className="brand">DryEyeNet</span> Platform
+            Die <span className="brand">DryEyeNet</span> Plattform
           </Heading>
           <div className={styles.featureGrid}>
             {[
               {
                 icon: "/img/versions/opto.png",
                 title: "Opto",
-                text: "Version for Pre-Treatment Centers.",
+                text: "Version für Vorbehandlungszentren.",
                 href: "/docs/platform/opto",
               },
               {
                 icon: "/img/versions/opto-plus.png",
                 title: "Opto Plus",
-                text: "Version Plus for Pre-Treatment Centers.",
+                text: "Plus-Version für Vorbehandlungszentren.",
                 href: "/docs/platform/opto-plus",
               },
               {
                 icon: "/img/versions/care.png",
                 title: "Care",
-                text: "Version for Care Providers.",
+                text: "Version für Pflegeanbieter.",
                 href: "/docs/platform/care",
               },
               {
                 icon: "/img/versions/ophtha.png",
                 title: "Ophtha",
-                text: "Version for Solo Ophthalmologists.",
+                text: "Version für Einzelaugenärzte.",
                 href: "/docs/platform/ophtha",
               },
             ].map((block, idx) => (
@@ -104,7 +100,7 @@ export default function Home(): ReactNode {
                 </div>
                 <b>{block.title}:</b>
                 <p>{block.text}</p>
-                <span className="learnMore">Go to Docs</span>
+                <span className="learnMore">Zur Dokumentation</span>
               </a>
             ))}
           </div>
