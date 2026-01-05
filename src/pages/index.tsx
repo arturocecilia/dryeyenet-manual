@@ -73,7 +73,7 @@ export default function Home(): ReactNode {
               {
                 icon: "/img/versions/opto-plus.png",
                 title: "Opto Plus",
-                text: "Version for Reading Centers.",
+                text: "Version Plus for Pre-Treatment Centers.",
                 href: "/docs/platform/opto-plus",
               },
               {
